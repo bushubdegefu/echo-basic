@@ -1,0 +1,177 @@
+
+2024/06/07 18:09:03 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/common/common.go:97 [35;1mno such table: roles
+[0m[33m[1.132ms] [34;1m[rows:0][0m SELECT * FROM `roles` ORDER BY id asc LIMIT 15
+
+2024/06/07 18:09:03 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/common/common.go:86 [35;1mno such table: roles
+[0m[33m[0.108ms] [34;1m[rows:0][0m SELECT COUNT(`id`) FROM `roles`
+
+2024/06/07 18:10:46 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/common/common.go:97 [35;1mno such table: roles
+[0m[33m[0.384ms] [34;1m[rows:0][0m SELECT * FROM `roles` ORDER BY id asc LIMIT 15
+
+2024/06/07 18:10:46 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/common/common.go:86 [35;1mno such table: roles
+[0m[33m[0.483ms] [34;1m[rows:0][0m SELECT COUNT(`id`) FROM `roles`
+
+2024/06/07 18:10:51 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/common/common.go:86 [35;1mno such table: roles
+[0m[33m[0.096ms] [34;1m[rows:0][0m SELECT COUNT(`id`) FROM `roles`
+
+2024/06/07 18:10:51 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/common/common.go:97 [35;1mno such table: roles
+[0m[33m[0.288ms] [34;1m[rows:0][0m SELECT * FROM `roles` ORDER BY id asc LIMIT 50
+
+2024/06/10 08:58:25 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/common/common.go:86 [35;1mno such table: roles
+[0m[33m[0.115ms] [34;1m[rows:0][0m SELECT COUNT(`id`) FROM `roles`
+
+2024/06/10 08:58:25 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/common/common.go:97 [35;1mno such table: roles
+[0m[33m[0.834ms] [34;1m[rows:0][0m SELECT * FROM `roles` ORDER BY id asc LIMIT 15
+
+2024/06/10 10:42:29 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/common/common.go:97 [35;1mno such table: roles
+[0m[33m[0.184ms] [34;1m[rows:0][0m SELECT * FROM `roles` ORDER BY id asc LIMIT 15
+
+2024/06/10 10:42:29 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/common/common.go:86 [35;1mno such table: roles
+[0m[33m[0.186ms] [34;1m[rows:0][0m SELECT COUNT(`id`) FROM `roles`
+
+2024/06/10 10:42:38 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:154 [35;1mno such table: roles
+[0m[33m[0.169ms] [34;1m[rows:0][0m INSERT INTO `roles` (`name`,`description`,`active`) VALUES ("Someone New","Description of someone new",true) RETURNING `id`
+
+2024/06/10 10:42:46 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/common/common.go:97 [35;1mno such table: roles
+[0m[33m[0.169ms] [34;1m[rows:0][0m SELECT * FROM `roles` ORDER BY id asc LIMIT 15
+
+2024/06/10 10:42:46 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/common/common.go:86 [35;1mno such table: roles
+[0m[33m[0.039ms] [34;1m[rows:0][0m SELECT COUNT(`id`) FROM `roles`
+
+2024/06/10 10:43:20 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:154 [35;1mno such table: roles
+[0m[33m[0.147ms] [34;1m[rows:0][0m INSERT INTO `roles` (`name`,`description`,`active`) VALUES ("Someone New","Description of someone new",true) RETURNING `id`
+
+2024/06/10 10:44:51 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:156 [35;1mno such table: roles
+[0m[33m[0.159ms] [34;1m[rows:0][0m INSERT INTO `roles` (`name`,`description`,`active`) VALUES ("Someone New","Description of someone new",true) RETURNING `id`
+
+2024/06/10 10:50:44 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:155 [35;1mno such table: roles
+[0m[33m[0.121ms] [34;1m[rows:0][0m INSERT INTO `roles` (`name`,`description`,`active`) VALUES ("Someone New","Description of someone new",true) RETURNING `id`
+
+2024/06/10 10:52:28 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:154
+[0m[33m[1.286ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('Someone New','Description of someone new',true) RETURNING "id"
+
+2024/06/10 10:52:33 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[5.417ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/10 10:52:33 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[7.779ms] [34;1m[rows:1][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 15
+
+2024/06/10 10:52:47 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:154
+[0m[33m[0.930ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('Someone New 2','Description of someone new 2',true) RETURNING "id"
+
+2024/06/10 10:52:51 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[7.390ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/10 10:52:51 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[10.773ms] [34;1m[rows:2][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 15
+
+2024/06/10 10:53:09 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:154
+[0m[33m[1.112ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('Someone New 3','Description of someone new 3',true) RETURNING "id"
+
+2024/06/10 10:53:15 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[6.234ms] [34;1m[rows:3][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 15
+
+2024/06/10 10:53:15 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[8.433ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/10 10:53:21 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[4.453ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/10 10:53:21 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[6.807ms] [34;1m[rows:2][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 2
+
+2024/06/10 10:53:28 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[5.226ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/10 10:53:28 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:100
+[0m[33m[7.395ms] [34;1m[rows:1][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 2 OFFSET 2
+
+2024/06/10 13:44:03 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:100
+[0m[33m[11.930ms] [34;1m[rows:1][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 2 OFFSET 2
+
+2024/06/10 13:44:03 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[15.772ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/10 13:44:36 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:100
+[0m[33m[3.429ms] [34;1m[rows:1][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 2 OFFSET 2
+
+2024/06/10 13:44:36 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[12.521ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/10 13:49:24 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:100
+[0m[33m[3.657ms] [34;1m[rows:1][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 2 OFFSET 2
+
+2024/06/10 13:49:24 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[10.722ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/10 13:49:29 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:100
+[0m[33m[3.345ms] [34;1m[rows:0][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 15 OFFSET 15
+
+2024/06/10 13:49:29 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[10.399ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/10 13:49:33 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[3.116ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/10 13:49:33 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:100
+[0m[33m[15.962ms] [34;1m[rows:0][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 15 OFFSET 15
+
+2024/06/10 13:49:34 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:100
+[0m[33m[11.008ms] [34;1m[rows:0][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 15 OFFSET 15
+
+2024/06/10 13:49:34 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[13.906ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/10 13:49:40 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[4.095ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/10 13:49:40 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[15.071ms] [34;1m[rows:3][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 15
+
+2024/06/10 13:53:07 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:88
+[0m[33m[2.825ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/10 13:53:12 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:88
+[0m[33m[3.348ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 2 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/10 13:53:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:88
+[0m[33m[3.832ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 3 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/10 13:53:33 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:88
+[0m[33m[2.970ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 10 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/10 13:58:38 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[4.004ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 10 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/10 13:58:49 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.491ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 3 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/10 14:52:47 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.433ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 3 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/10 14:52:54 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[3.272ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/10 14:52:54 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[22.749ms] [34;1m[rows:3][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 15
+
+2024/06/10 14:53:01 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[2.072ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Someone New 3','Description of someone new 3',true) RETURNING "id"
+
+2024/06/10 16:11:10 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.610ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 3 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/10 16:11:14 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.874ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/10 16:58:14 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[4.932ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/10 16:58:21 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.757ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 2 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 08:25:12 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[2.687ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 08:25:12 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[9.550ms] [34;1m[rows:3][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 15
