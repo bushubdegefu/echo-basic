@@ -195,7 +195,7 @@ func PostRole(contx echo.Context) error {
 // @Success 200 {object} common.ResponseHTTP{data=RolePost}
 // @Failure 400 {object} common.ResponseHTTP{}
 // @Failure 500 {object} common.ResponseHTTP{}
-// @Router /roles/{role_id} [patch]
+// @Router /role/{role_id} [patch]
 func PatchRole(contx echo.Context) error {
 
 	// Get database connection
@@ -205,7 +205,7 @@ func PatchRole(contx echo.Context) error {
 	validate := validator.New()
 
 	// validate path params
-	id, err := strconv.Atoi(contx.QueryParam("role_id"))
+	id, err := strconv.Atoi(contx.Param("role_id"))
 	if err != nil {
 		return contx.JSON(http.StatusBadRequest, common.ResponseHTTP{
 			Success: false,
@@ -234,27 +234,39 @@ func PatchRole(contx echo.Context) error {
 	}
 
 	// startng update transaction
-	tx := db.Begin()
-	role := new(models.Role)
+	var role models.Role
 	role.ID = uint(id)
-	if err := db.Model(&role).UpdateColumns(*patch_role).Error; err != nil {
-		tx.Rollback()
+	tx := db.Begin()
+
+	// Check if the record exists
+	if err := db.First(&role, role.ID).Error; err != nil {
 		if errors.Is(err, gorm.ErrRecordNotFound) {
+			// If the record doesn't exist, return an error response
+			tx.Rollback()
 			return contx.JSON(http.StatusNotFound, common.ResponseHTTP{
 				Success: false,
 				Message: "Role not found",
 				Data:    nil,
 			})
 		}
+		// If there's an unexpected error, return an internal server error response
+		tx.Rollback()
 		return contx.JSON(http.StatusInternalServerError, common.ResponseHTTP{
 			Success: false,
-			Message: "Error retrieving role",
+			Message: err.Error(),
 			Data:    nil,
 		})
 	}
 
-	// Commit the transaction
-	tx.Commit()
+	// Update the record
+	if err := db.Model(&role).UpdateColumns(*patch_role).Error; err != nil {
+		tx.Rollback()
+		return contx.JSON(http.StatusInternalServerError, common.ResponseHTTP{
+			Success: false,
+			Message: err.Error(),
+			Data:    nil,
+		})
+	}
 
 	// Return  success response
 	return contx.JSON(http.StatusOK, common.ResponseHTTP{
@@ -275,7 +287,7 @@ func PatchRole(contx echo.Context) error {
 // @Success 200 {object} common.ResponseHTTP{}
 // @Failure 404 {object} common.ResponseHTTP{}
 // @Failure 503 {object} common.ResponseHTTP{}
-// @Router /roles/{role_id} [delete]
+// @Router /role/{role_id} [delete]
 func DeleteRole(contx echo.Context) error {
 
 	// get deleted role attributes to return

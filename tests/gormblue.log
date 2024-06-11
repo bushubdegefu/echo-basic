@@ -82,3 +82,1260 @@
 
 2024/06/11 08:24:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
 [0m[33m[3.210ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 11:31:01 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[2.867ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 11:31:01 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[10.003ms] [34;1m[rows:3][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 11:31:01 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[6.134ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 11:31:01 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[8.726ms] [34;1m[rows:3][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 11:31:01 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.733ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 11:31:01 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.459ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 16:33:07 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[2.423ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 16:33:07 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[9.814ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 16:33:07 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[3.007ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 16:33:07 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[11.075ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 16:33:07 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.941ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 16:33:07 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[4.881ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 16:34:43 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[5.619ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 16:34:43 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[8.355ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 16:34:43 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[3.385ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 16:34:43 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[9.408ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 16:34:43 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.930ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 16:34:43 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.930ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 16:37:33 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[2.900ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 16:37:33 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[9.207ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 16:37:33 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[2.593ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 16:37:33 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[10.692ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 16:37:33 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.504ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 16:37:33 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.027ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 16:41:09 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[3.197ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 16:41:09 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[10.032ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 16:41:09 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[6.078ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 16:41:09 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[11.202ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 16:41:09 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.864ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 16:41:09 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.677ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:01:56 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[8.158ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:01:56 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[11.178ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:01:56 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[6.729ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:01:56 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[9.555ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:01:56 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.805ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:01:56 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.863ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:03:07 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[6.609ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:03:07 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[8.986ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:03:07 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[6.648ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:03:07 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[9.839ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:03:07 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.674ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:03:07 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.679ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:06:58 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[6.709ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:06:58 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[9.618ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:06:58 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[3.247ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:06:58 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[9.688ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:06:58 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:92
+[0m[33m[2.874ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:06:58 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:92
+[0m[33m[3.042ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:11:34 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[2.771ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:11:34 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[11.687ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:11:34 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[3.616ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:11:34 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[10.740ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:11:34 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:92
+[0m[33m[3.212ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:11:34 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:92
+[0m[33m[3.728ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:17:53 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[6.282ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:17:53 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[9.370ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:17:53 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[6.739ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:17:53 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[8.982ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:17:53 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:92
+[0m[33m[2.591ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:17:53 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:92
+[0m[33m[2.819ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:23:41 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[4.910ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:23:41 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[7.682ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:23:41 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[5.261ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:23:41 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[7.713ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:23:41 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:92
+[0m[33m[2.770ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:23:41 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:92
+[0m[33m[2.497ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:24:11 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[6.215ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:24:11 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[8.863ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:24:11 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[5.234ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:24:11 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[7.886ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:24:11 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:92
+[0m[33m[3.041ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:24:11 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:92
+[0m[33m[2.379ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:24:33 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[6.350ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:24:33 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[8.711ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:24:33 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[2.472ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:24:33 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[8.179ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:24:33 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:92
+[0m[33m[6.597ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:24:33 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:92
+[0m[33m[3.720ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:24:47 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[6.445ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:24:47 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[10.739ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:24:47 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[6.450ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:24:47 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[9.550ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:24:47 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:92
+[0m[33m[2.707ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:24:47 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:92
+[0m[33m[2.548ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:33:49 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[2.843ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:33:49 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[11.368ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:33:49 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[3.626ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:33:49 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[12.617ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:33:49 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.217ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:33:49 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.041ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:34:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[6.208ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:34:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[9.503ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:34:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[2.892ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:34:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[12.732ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:34:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.655ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:34:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.502ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:35:37 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[3.037ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:35:37 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[10.731ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:35:37 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[3.362ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:35:37 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[10.526ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:35:37 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.016ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:35:37 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.575ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:37:35 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[13.743ms] [34;1m[rows:1][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test one' WHERE "id" = 1
+
+2024/06/11 17:37:35 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[11.265ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name seven',"description"='Description of Name one for test 2' WHERE "id" = 100
+
+2024/06/11 17:37:35 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[2.958ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:37:35 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[12.180ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:37:35 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[3.076ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:37:35 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[13.574ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:37:35 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.419ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:37:36 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.627ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:39:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[2.121ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted','Description of Name Posted neww',true) RETURNING "id"
+
+2024/06/11 17:39:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[2.576ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 17:39:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[13.655ms] [34;1m[rows:1][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test one' WHERE "id" = 1
+
+2024/06/11 17:39:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[18.501ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name seven',"description"='Description of Name one for test 2' WHERE "id" = 100
+
+2024/06/11 17:39:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[7.088ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:39:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[33.410ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:39:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[4.331ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:39:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[29.351ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 17:39:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[6.365ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:39:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[6.929ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 19:39:02 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[1.706ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted','Description of Name Posted neww',true) RETURNING "id"
+
+2024/06/11 19:39:02 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[2.352ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 19:39:02 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[13.470ms] [34;1m[rows:1][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test one' WHERE "id" = 1
+
+2024/06/11 19:39:03 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[21.308ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name seven',"description"='Description of Name one for test 2' WHERE "id" = 100
+
+2024/06/11 19:39:03 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[5.880ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 19:39:03 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[17.494ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 19:39:03 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[5.163ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 19:39:03 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[21.347ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 19:39:03 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[6.025ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 19:39:03 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[8.272ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 20:23:56 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[7.673ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted','Description of Name Posted neww',true) RETURNING "id"
+
+2024/06/11 20:23:56 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[5.439ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 20:23:56 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[41.946ms] [34;1m[rows:1][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test one' WHERE "id" = 1
+
+2024/06/11 20:23:56 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[33.226ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test 2' WHERE "id" = 100
+
+2024/06/11 20:23:57 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[12.035ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 20:23:57 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[41.363ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 20:23:57 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[5.687ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 20:23:57 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[31.704ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 20:23:57 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[12.215ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 20:23:57 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[9.534ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 20:28:39 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[7.818ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted','Description of Name Posted neww',true) RETURNING "id"
+
+2024/06/11 20:28:39 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[4.475ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 20:30:09 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[2.778ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted','Description of Name Posted neww',true) RETURNING "id"
+
+2024/06/11 20:30:09 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[2.175ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 20:32:23 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[3.450ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 20:32:23 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[3.833ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 20:45:00 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[2.501ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 20:45:00 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[2.974ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 20:55:19 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[2.335ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 20:58:56 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[6.393ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 20:58:56 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[6.404ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 20:59:03 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[2.216ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 20:59:03 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[1.902ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 20:59:28 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[2.442ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 20:59:28 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[1.798ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:00:28 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[1.582ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:00:28 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[2.004ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:00:32 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[2.591ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:00:32 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[2.504ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:04:12 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[2.778ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:04:12 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[3.580ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:05:01 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[2.026ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:05:01 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[15.383ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 34 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:05:01 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[2.699ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 34
+
+2024/06/11 21:05:01 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[2.249ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:05:08 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[3.752ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:05:08 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[33.571ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 36 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:05:08 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[4.326ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 36
+
+2024/06/11 21:05:08 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[4.849ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:05:14 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[1.736ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:05:14 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[17.860ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 38 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:05:14 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[3.297ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 38
+
+2024/06/11 21:05:14 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[2.763ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:07:35 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[5.882ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:07:35 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[23.008ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 40 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:07:35 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[3.807ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 40
+
+2024/06/11 21:07:35 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[4.569ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:07:35 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[26.167ms] [34;1m[rows:1][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test one' WHERE "id" = 1
+
+2024/06/11 21:07:35 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[31.314ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test 2' WHERE "id" = 100
+
+2024/06/11 21:07:35 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[7.118ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:07:36 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[29.766ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:07:36 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[5.986ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:07:36 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[27.795ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:07:36 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[5.964ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:07:36 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[5.813ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:11:55 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[5.554ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:11:56 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[34.094ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 42 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:11:56 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[4.000ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 42
+
+2024/06/11 21:11:56 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[6.308ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:11:56 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240 [35;1mERROR: type "id" does not exist (SQLSTATE 42704)
+[0m[33m[40.682ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test one' WHERE id 1
+
+2024/06/11 21:11:56 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240 [35;1mERROR: type "id" does not exist (SQLSTATE 42704)
+[0m[33m[62.872ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test 2' WHERE id 100
+
+2024/06/11 21:11:56 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[9.797ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:11:56 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[57.891ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:11:56 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[5.617ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:11:56 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[20.695ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:11:56 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.964ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:11:56 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.351ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:15:04 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[5.243ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:15:04 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[28.462ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 44 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:15:04 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[3.859ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 44
+
+2024/06/11 21:15:04 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[6.235ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:15:04 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240 [35;1mERROR: type "id" does not exist (SQLSTATE 42704)
+[0m[33m[41.343ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test one' WHERE id 1
+
+2024/06/11 21:15:04 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240 [35;1mERROR: type "id" does not exist (SQLSTATE 42704)
+[0m[33m[31.109ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test 2' WHERE id 100
+
+2024/06/11 21:15:04 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[6.691ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:15:04 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[31.226ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:15:05 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[7.124ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:15:05 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[32.182ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:15:05 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[5.937ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:15:05 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[6.730ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:17:52 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[4.623ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:17:52 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[10.021ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 46 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:17:52 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[2.145ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 46
+
+2024/06/11 21:17:52 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[1.309ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:17:52 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240 [35;1mERROR: type "id" does not exist (SQLSTATE 42704)
+[0m[33m[28.876ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test one' WHERE id 1
+
+2024/06/11 21:17:52 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240 [35;1mERROR: type "id" does not exist (SQLSTATE 42704)
+[0m[33m[33.084ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test 2' WHERE id 100
+
+2024/06/11 21:17:52 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[7.784ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:17:52 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[18.380ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:17:52 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[7.857ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:17:52 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[20.881ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:17:52 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[4.325ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:17:52 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[4.346ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:20:45 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[1.326ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:20:45 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[9.650ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 48 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:20:45 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[2.588ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 48
+
+2024/06/11 21:20:45 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[2.224ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:20:45 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240 [35;1mERROR: type "id" does not exist (SQLSTATE 42704)
+[0m[33m[12.745ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test one' WHERE id 1
+
+2024/06/11 21:20:45 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240 [35;1mERROR: type "id" does not exist (SQLSTATE 42704)
+[0m[33m[12.071ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test 2' WHERE id 100
+
+2024/06/11 21:20:45 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[3.310ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:20:45 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[10.731ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:20:45 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[2.612ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:20:45 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[9.526ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:20:45 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.693ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:20:45 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.649ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:21:59 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[2.037ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:21:59 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[11.698ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 50 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:21:59 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[3.319ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 50
+
+2024/06/11 21:21:59 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[1.583ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:21:59 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240 [35;1mERROR: type "id" does not exist (SQLSTATE 42704)
+[0m[33m[11.122ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test one' WHERE id 1
+
+2024/06/11 21:21:59 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240 [35;1mERROR: type "id" does not exist (SQLSTATE 42704)
+[0m[33m[10.139ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test 2' WHERE id 100
+
+2024/06/11 21:21:59 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[4.702ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:21:59 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[12.795ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:21:59 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[2.684ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:21:59 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[13.347ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:21:59 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[4.004ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:21:59 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.668ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:23:45 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[1.288ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:23:45 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[11.462ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 52 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:23:45 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[3.261ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 52
+
+2024/06/11 21:23:45 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[1.582ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:23:45 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240 [35;1mERROR: type "id" does not exist (SQLSTATE 42704)
+[0m[33m[10.336ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test one' WHERE id 1
+
+2024/06/11 21:23:45 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240 [35;1mERROR: type "id" does not exist (SQLSTATE 42704)
+[0m[33m[11.446ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test 2' WHERE id 100
+
+2024/06/11 21:23:45 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[3.719ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:23:45 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[9.935ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:23:46 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[6.815ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:23:46 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[11.159ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:23:46 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.793ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:23:46 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.813ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:24:35 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[1.912ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:24:35 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[11.665ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 54 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:24:35 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[2.374ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 54
+
+2024/06/11 21:24:35 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[1.415ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:24:35 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240 [35;1mERROR: type "id" does not exist (SQLSTATE 42704)
+[0m[33m[10.476ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test one' WHERE id 1
+
+2024/06/11 21:24:35 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240 [35;1mERROR: type "id" does not exist (SQLSTATE 42704)
+[0m[33m[8.120ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test 2' WHERE id 100
+
+2024/06/11 21:24:35 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[7.107ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:24:35 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[10.656ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:24:35 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[6.365ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:24:35 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[9.741ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:24:35 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.859ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:24:35 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.628ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:28:24 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[1.506ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:28:24 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[10.148ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 56 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:28:24 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[2.904ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 56
+
+2024/06/11 21:28:24 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[1.828ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:28:24 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240 [35;1mERROR: type "id" does not exist (SQLSTATE 42704)
+[0m[33m[10.994ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test one' WHERE id 1
+
+2024/06/11 21:28:24 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240 [35;1mERROR: type "id" does not exist (SQLSTATE 42704)
+[0m[33m[8.785ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test 2' WHERE id 100
+
+2024/06/11 21:28:24 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[3.087ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:28:24 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[13.247ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:28:24 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[9.095ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:28:24 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[12.307ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:28:24 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.534ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:28:24 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.724ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:29:32 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[4.573ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:29:32 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[9.407ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 58 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:29:32 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[2.439ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 58
+
+2024/06/11 21:29:32 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[1.679ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:29:32 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[13.400ms] [34;1m[rows:1][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test one' WHERE "id" = 1
+
+2024/06/11 21:29:32 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[9.580ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test 2' WHERE "id" = 100
+
+2024/06/11 21:29:32 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[3.350ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:29:32 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[9.857ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:29:32 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[5.895ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:29:32 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[9.135ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:29:32 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.745ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:29:32 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.780ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:34:25 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[2.346ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:34:25 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[10.365ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 60 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:34:25 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[2.883ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 60
+
+2024/06/11 21:34:25 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[1.340ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:34:25 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[10.308ms] [34;1m[rows:1][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test one' WHERE id = 1
+
+2024/06/11 21:34:25 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[11.431ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test 2' WHERE id = 100
+
+2024/06/11 21:34:25 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[7.298ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:34:25 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[10.582ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:34:25 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[8.374ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:34:25 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[12.083ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:34:25 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.798ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:34:25 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.259ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:37:03 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[1.380ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:37:03 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[12.604ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 62 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:37:03 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[2.605ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 62
+
+2024/06/11 21:37:03 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[1.376ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:37:03 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[10.503ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:37:03 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240 [35;1mERROR: table name "roles" specified more than once (SQLSTATE 42712)
+[0m[33m[1.614ms] [34;1m[rows:1][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test one' FROM "roles" WHERE id = 1
+
+2024/06/11 21:37:03 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[10.493ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:37:03 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[6.774ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:37:03 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[10.227ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:37:03 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[6.782ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:37:03 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[10.018ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:37:03 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.607ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:37:03 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.745ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:38:44 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[1.314ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:38:44 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[11.303ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 64 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:38:44 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[2.993ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 64
+
+2024/06/11 21:38:44 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[1.621ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:38:44 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[12.295ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:38:44 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240 [35;1mERROR: table name "roles" specified more than once (SQLSTATE 42712)
+[0m[33m[1.587ms] [34;1m[rows:1][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test one' FROM "roles" WHERE id = 1 AND "id" = 1
+
+2024/06/11 21:38:44 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[10.739ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:38:44 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[3.235ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:38:44 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[12.404ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:38:44 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[3.931ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:38:44 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[11.515ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:38:44 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.050ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:38:44 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.364ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:39:15 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[1.300ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:39:15 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[13.202ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 66 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:39:15 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[2.403ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 66
+
+2024/06/11 21:39:15 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[1.328ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:39:15 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[12.213ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:39:15 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240 [35;1mERROR: table name "roles" specified more than once (SQLSTATE 42712)
+[0m[33m[1.494ms] [34;1m[rows:1][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test one' FROM "roles" WHERE id = 1 AND "id" = 1
+
+2024/06/11 21:39:15 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[12.892ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:39:15 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[4.102ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:39:15 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[16.820ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:39:15 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[2.738ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:39:15 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[12.974ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:39:15 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.761ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:39:15 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.233ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:40:52 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[1.710ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:40:52 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[11.772ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 68 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:40:52 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[2.792ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 68
+
+2024/06/11 21:40:52 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[2.523ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:40:52 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[12.739ms] [34;1m[rows:1][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test one' WHERE id = 1
+
+2024/06/11 21:40:52 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[14.605ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test 2' WHERE id = 100
+
+2024/06/11 21:40:52 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[3.947ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:40:52 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[12.613ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:40:52 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[4.050ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:40:52 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[12.436ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:40:52 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.226ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:40:52 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.276ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:42:46 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[2.119ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:42:46 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[10.845ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 70 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:42:46 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[6.130ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 70
+
+2024/06/11 21:42:46 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[2.614ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:42:46 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[12.383ms] [34;1m[rows:1][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test one' WHERE id = 1
+
+2024/06/11 21:42:46 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[9.754ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test 2' WHERE id = 100
+
+2024/06/11 21:42:46 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[3.427ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:42:46 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[13.073ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:42:46 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[7.917ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:42:46 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[12.060ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:42:46 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.587ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:42:46 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.715ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:44:44 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[1.508ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:44:44 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[12.023ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 72 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:44:44 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[2.554ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 72
+
+2024/06/11 21:44:44 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[2.426ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:44:44 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[12.043ms] [34;1m[rows:1][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test one' WHERE id = 1
+
+2024/06/11 21:44:44 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[9.917ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test 2' WHERE id = 100
+
+2024/06/11 21:44:44 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[4.071ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:44:44 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[10.709ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:44:44 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[3.612ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:44:44 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[12.896ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:44:44 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.948ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:44:44 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.564ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:56:59 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[1.329ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:57:00 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:313
+[0m[33m[12.135ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 74 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:57:00 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:330
+[0m[33m[2.355ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 74
+
+2024/06/11 21:57:00 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[2.109ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:57:00 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:242
+[0m[33m[14.059ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE "roles"."id" = 1 AND "roles"."id" = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:57:00 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:262
+[0m[33m[2.758ms] [34;1m[rows:1][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test one' WHERE "id" = 1
+
+2024/06/11 21:57:00 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:242
+[0m[33m[12.703ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE "roles"."id" = 100 AND "roles"."id" = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:57:00 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[8.025ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:57:00 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[11.387ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:57:00 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[11.236ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:57:00 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[14.354ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:57:00 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.790ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:57:00 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[3.094ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:57:21 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[3.300ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:57:21 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:313
+[0m[33m[17.725ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 76 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:57:21 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:330
+[0m[33m[2.747ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 76
+
+2024/06/11 21:57:21 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[1.934ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:57:21 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:242
+[0m[33m[14.787ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE "roles"."id" = 1 AND "roles"."id" = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:57:21 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:262
+[0m[33m[3.281ms] [34;1m[rows:1][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test one' WHERE "id" = 1
+
+2024/06/11 21:57:21 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:242
+[0m[33m[13.862ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE "roles"."id" = 100 AND "roles"."id" = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:57:21 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[4.702ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:57:21 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[15.268ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:57:21 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[3.813ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:57:21 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[16.725ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:57:21 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[4.680ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:57:21 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[4.698ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:57:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[3.960ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('New one Posted 3','Description of Name Posted neww333',true) RETURNING "id"
+
+2024/06/11 21:57:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:313
+[0m[33m[29.908ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 78 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:57:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:330
+[0m[33m[3.726ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 78
+
+2024/06/11 21:57:27 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[3.579ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('Name one','Description of Name one',true) RETURNING "id"
+
+2024/06/11 21:57:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:242
+[0m[33m[24.555ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE "roles"."id" = 1 AND "roles"."id" = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:57:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:262
+[0m[33m[3.853ms] [34;1m[rows:1][0m UPDATE "roles" SET "name"='Name one eight',"description"='Description of Name one for test one' WHERE "id" = 1
+
+2024/06/11 21:57:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:242
+[0m[33m[31.014ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE "roles"."id" = 100 AND "roles"."id" = 100 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:57:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[7.183ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:57:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[30.964ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:57:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[7.600ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 10
+
+2024/06/11 21:57:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[29.817ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:57:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[7.627ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:57:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[6.696ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 100 ORDER BY "roles"."id" LIMIT 1

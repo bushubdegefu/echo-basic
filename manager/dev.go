@@ -71,10 +71,10 @@ func init() {
 
 func setupRoutes(app *echo.Echo) {
 	gapp := app.Group("/admin")
-	gapp.GET("/roles", controlers.GetRoles).Name = "get_all_roles"
+	gapp.GET("/role", controlers.GetRoles).Name = "get_all_roles"
 	gapp.GET("/role/:role_id", controlers.GetRoleByID).Name = "get_one_roles"
 	gapp.POST("/role", controlers.PostRole).Name = "post_role"
 	gapp.PATCH("/role/:role_id", controlers.PatchRole).Name = "patch_role"
-	gapp.DELETE("/role/:role_id", controlers.PostRole).Name = "post_role"
+	gapp.DELETE("/role/:role_id", controlers.DeleteRole).Name = "delete_role"
 
 }

@@ -175,3 +175,285 @@
 
 2024/06/11 08:25:12 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
 [0m[33m[9.550ms] [34;1m[rows:3][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 15
+
+2024/06/11 16:28:40 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[5.099ms] [34;1m[rows:3][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 20
+
+2024/06/11 16:28:40 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[8.298ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 16:28:56 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[2.504ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 16:31:28 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166
+[0m[33m[2.768ms] [34;1m[rows:1][0m INSERT INTO "roles" ("name","description","active") VALUES ('testaddtwo some test','description @',true) RETURNING "id"
+
+2024/06/11 16:32:46 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:166 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[2.843ms] [34;1m[rows:0][0m INSERT INTO "roles" ("name","description","active") VALUES ('testaddtwo some test','description @',true) RETURNING "id"
+
+2024/06/11 16:47:55 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[3.040ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 20
+
+2024/06/11 16:47:55 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[9.146ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:23:03 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[6.006ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 20
+
+2024/06/11 17:23:03 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[8.156ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:24:52 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:242 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[12.265ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited',"description"='description @' WHERE "id" = 2
+
+2024/06/11 17:25:06 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[3.214ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 20
+
+2024/06/11 17:25:06 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[10.355ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:25:15 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:92
+[0m[33m[3.003ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 2 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 17:25:39 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:242 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[8.472ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited',"description"='description @' WHERE "id" = 2
+
+2024/06/11 17:28:55 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:242 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[8.393ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited',"description"='description @' WHERE "id" = 2
+
+2024/06/11 17:28:56 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:242 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[9.448ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited',"description"='description @' WHERE "id" = 2
+
+2024/06/11 17:28:57 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:242 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[10.270ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited',"description"='description @' WHERE "id" = 2
+
+2024/06/11 17:30:43 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:243 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[10.155ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited',"description"='description @' WHERE id = 2
+
+2024/06/11 17:30:47 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:243 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[8.014ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited',"description"='description @' WHERE id = 2
+
+2024/06/11 17:31:11 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:243 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[9.686ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited',"description"='description @' WHERE id = 2
+
+2024/06/11 17:31:26 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:243 [35;1mERROR: duplicate key value violates unique constraint "uni_roles_description" (SQLSTATE 23505)
+[0m[33m[14.140ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2',"description"='description @' WHERE id = 2
+
+2024/06/11 17:31:41 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:243
+[0m[33m[10.477ms] [34;1m[rows:1][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2',"description"='description @ changed' WHERE id = 2
+
+2024/06/11 17:31:51 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[3.341ms] [34;1m[rows:4][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 20
+
+2024/06/11 17:31:51 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[10.003ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 17:32:21 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:243 [35;1mWHERE conditions required
+[0m[33m[0.385ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2',"description"='description  changed'
+
+2024/06/11 17:32:33 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:243 [35;1mWHERE conditions required
+[0m[33m[0.247ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed too',"description"='description  changed again'
+
+2024/06/11 17:32:34 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:243 [35;1mWHERE conditions required
+[0m[33m[0.273ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed too',"description"='description  changed again'
+
+2024/06/11 17:32:51 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:243
+[0m[33m[15.483ms] [34;1m[rows:1][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed too',"description"='description  changed again' WHERE "id" = 2
+
+2024/06/11 17:33:04 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:243
+[0m[33m[13.604ms] [34;1m[rows:1][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE "id" = 2
+
+2024/06/11 17:40:03 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[13.139ms] [34;1m[rows:1][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE "id" = 2
+
+2024/06/11 17:40:10 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[3.168ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 20
+
+2024/06/11 17:40:10 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[12.819ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 20:46:22 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[5.198ms] [34;1m[rows:7][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 20
+
+2024/06/11 20:46:22 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[18.661ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 20:52:59 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[4.924ms] [34;1m[rows:7][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 20
+
+2024/06/11 20:52:59 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[16.402ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 20:53:32 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[14.746ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 17 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 20:53:32 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[2.988ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 17
+
+2024/06/11 20:57:53 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[3.624ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 20:57:53 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[14.135ms] [34;1m[rows:7][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 20
+
+2024/06/11 20:58:15 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[3.876ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 20:58:15 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[14.327ms] [34;1m[rows:7][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 20
+
+2024/06/11 20:58:21 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[7.347ms] [34;1m[rows:7][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 20
+
+2024/06/11 20:58:21 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[24.188ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 20:58:28 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[13.423ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 21 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 20:58:28 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[2.535ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 21
+
+2024/06/11 20:58:34 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[7.430ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 20
+
+2024/06/11 20:58:34 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[23.513ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 20:59:47 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[4.672ms] [34;1m[rows:7][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 20
+
+2024/06/11 20:59:47 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[17.348ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:00:18 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[14.632ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 22 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:00:18 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[3.020ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 22
+
+2024/06/11 21:01:12 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[16.623ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 23 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:01:15 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[13.857ms] [34;1m[rows:0][0m SELECT * FROM "roles" WHERE id = 23 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:01:21 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[4.815ms] [34;1m[rows:7][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 20
+
+2024/06/11 21:01:21 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[18.909ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:01:39 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[17.817ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 28 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:01:39 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[2.800ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 28
+
+2024/06/11 21:04:51 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:302
+[0m[33m[15.155ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 32 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:04:51 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:319
+[0m[33m[2.955ms] [34;1m[rows:1][0m DELETE FROM "roles" WHERE "roles"."id" = 32
+
+2024/06/11 21:08:45 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[24.594ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE "id" = 900
+
+2024/06/11 21:09:11 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[8.355ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 2 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:09:18 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[4.135ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 20
+
+2024/06/11 21:09:18 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[15.757ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:09:31 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[18.679ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE "id" = 900
+
+2024/06/11 21:11:15 logger.go:167: [31;1m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240 [35;1mERROR: type "id" does not exist (SQLSTATE 42704)
+[0m[33m[15.849ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE id 900
+
+2024/06/11 21:12:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[4.329ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 20
+
+2024/06/11 21:12:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[20.838ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:21:40 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[5.534ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:21:40 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[8.396ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 20
+
+2024/06/11 21:24:49 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:91
+[0m[33m[4.153ms] [34;1m[rows:1][0m SELECT * FROM "roles" WHERE id = 1 ORDER BY "roles"."id" LIMIT 1
+
+2024/06/11 21:30:39 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[10.761ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE "id" = 900
+
+2024/06/11 21:30:47 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[9.465ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE "id" = 900
+
+2024/06/11 21:33:39 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[13.199ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE id = 900
+
+2024/06/11 21:33:43 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[10.466ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE id = 900
+
+2024/06/11 21:33:44 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[15.037ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE id = 900
+
+2024/06/11 21:33:44 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[13.922ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE id = 900
+
+2024/06/11 21:33:45 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[11.749ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE id = 900
+
+2024/06/11 21:33:46 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[12.300ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE id = 900
+
+2024/06/11 21:33:47 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[11.240ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE id = 900
+
+2024/06/11 21:33:48 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[18.254ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE id = 900
+
+2024/06/11 21:33:49 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[14.705ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE id = 900
+
+2024/06/11 21:34:01 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:86
+[0m[33m[5.704ms] [34;1m[rows:1][0m SELECT COUNT("id") FROM "roles"
+
+2024/06/11 21:34:01 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/common/common.go:97
+[0m[33m[12.332ms] [34;1m[rows:6][0m SELECT * FROM "roles" ORDER BY id asc LIMIT 20
+
+2024/06/11 21:43:23 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[8.302ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE id = 900
+
+2024/06/11 21:43:26 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[10.246ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE id = 900
+
+2024/06/11 21:43:27 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[9.841ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE id = 900
+
+2024/06/11 21:43:28 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[12.753ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE id = 900
+
+2024/06/11 21:43:29 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[16.417ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE id = 900
+
+2024/06/11 21:45:18 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[11.140ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE id = 900
+
+2024/06/11 21:50:31 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[10.658ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE "id" = 900
+
+2024/06/11 21:50:35 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[11.313ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE "id" = 900
+
+2024/06/11 21:50:36 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[8.829ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE "id" = 900
+
+2024/06/11 21:50:37 logger.go:182: [32m/home/bushu/Documents/goland/echo-blue/models/controlers/role_controller.go:240
+[0m[33m[16.874ms] [34;1m[rows:0][0m UPDATE "roles" SET "name"='testaddtwo some test edited 2 this changed 3',"description"='description  changed again' WHERE "id" = 900
